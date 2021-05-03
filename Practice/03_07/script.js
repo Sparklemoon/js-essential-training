@@ -9,9 +9,34 @@
  */
 
 
+// var book = {
+//     title: "Bible",
+//     type: "Religious",
+//     size: "Large",
+//     translation: "KJV",
+//     myBible : function() {
+//         return this.title + "is" + this.size;
+//     }
+// };
+
 var book = {
     title: "Bible",
     type: "Religious",
     size: "Large",
-    translation: "KJV"
-};
+    translation: "KJV",
+    
+} 
+
+const user = {
+    id: 444,
+    email: 'myra@dev.com',
+    personalInfo: {
+        name: 'Myra',
+        address: {
+            line1: 'westwish st',
+            line2: 'washmasher',
+            city: 'wallas',
+            state: 'WX'
+        }
+    }
+}
