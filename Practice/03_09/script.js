@@ -23,4 +23,11 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+  newPocketNum: function(amount) {
+    this.pocketNum = amount;
+    
+  }
 };
+
+backpack.newStrapLength(32, 32);
+backpack.newPocketNum(21);
