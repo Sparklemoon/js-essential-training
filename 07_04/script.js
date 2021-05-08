@@ -8,4 +8,16 @@
  * - Remove the item you found using the find method from the array.
  */
 
+let myrasDesk = ["pen", "coffee mug", "computer", "lamp", "pencil", "mouse", "lotion", "hair tie"];
+myrasDesk.find(4);
 
+// myrasDesk.sort();
+// the sort() method sorts an array alphabetically:
+
+
+// myrasDesk.push("headphones");
+// the push() method adds a new element to an array (at the end)
+
+
+// myrasDesk.pop();
+// the pop() method removes the last element from an array
